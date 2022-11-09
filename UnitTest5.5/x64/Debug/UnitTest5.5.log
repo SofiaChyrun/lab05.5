@@ -1,0 +1,3 @@
+﻿  UnitTest5.5.cpp
+C:\Student\ChyrunSofialab5.5\UnitTest5.5\UnitTest5.5.cpp(16,9): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  UnitTest5.5.vcxproj -> C:\Student\ChyrunSofialab5.5\x64\Debug\UnitTest5.5.dll

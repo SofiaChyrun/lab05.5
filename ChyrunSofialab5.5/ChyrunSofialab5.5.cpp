@@ -11,23 +11,23 @@
 
 using namespace std;
 
-void f(double a, double b, double c, double d);
+double f(double a, double b, double c, double d);
 
 int main()
 {
-	double a, b, c, d;
+	double a, b, c, d, S;
 
 	cout << "a = "; cin >> a;
 	cout << "b = "; cin >> b;
 	cout << "c = "; cin >> c;
 	cout << "d = "; cin >> d;
 
-	f(a,b,c,d);
+	S=f(a,b,c,d);
 
 	return 0;
 }
 
-void f(double a, double b, double c, double d)
+double f(double a, double b, double c, double d)
 {
 	double r, s, D0, D1, D2, r1, s1;
 	D0 = a * c;
@@ -41,5 +41,5 @@ void f(double a, double b, double c, double d)
 
 	cout << "(a+i*b)*(c+i*d)=r+i*s=" << r << "+i*" << s << endl;
 	cout << "(a+i*b)*(c+i*d)=r+i*s=" << r1 << "+i*" << s1 << endl;
-	
+	return r + s;
 }
